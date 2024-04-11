@@ -1,0 +1,5 @@
+a = input()
+arr = a.split("-")
+a = int(arr[1])
+b = int(arr[2])
+print("010-%d-%d" % (b, a))
