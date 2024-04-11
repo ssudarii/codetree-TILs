@@ -1,0 +1,6 @@
+a = input()
+arr = a.split("-")
+m = int(arr[0])
+d = int(arr[1])
+y = int(arr[2])
+print("%d.%d.%d" % (y, m, d))
