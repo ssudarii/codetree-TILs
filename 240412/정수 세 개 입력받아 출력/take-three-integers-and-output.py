@@ -1,0 +1,7 @@
+m = input()
+n = input()
+arr = m.split()
+a = int(arr[0])
+b = int(arr[1])
+c = int(n)
+print(a, b, c)
