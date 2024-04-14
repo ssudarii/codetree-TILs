@@ -9,5 +9,5 @@ if a > b and c > a :
     print(a)
 elif b > a and c > b :
     print(b)
-else :
+else c > a and b > c :
     print(c)
