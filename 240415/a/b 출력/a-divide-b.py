@@ -1,7 +1,12 @@
 a, b = map(int, input().split())
 
-print("0.", end="")
-a *= 10
-print(int(a / b), end="")
-for _ in range(19) :
-    print("0", end="")
+for i in range(21) :
+    m = a // b
+    n = a % b
+    a = n * 10
+
+    print(m, end="")
+    if i == 0 :
+        print(".", end=" ")
+
+    #print((( a % b ) * 10) % b)
