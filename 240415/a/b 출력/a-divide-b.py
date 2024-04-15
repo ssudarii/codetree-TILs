@@ -7,6 +7,6 @@ for i in range(21) :
 
     print(m, end="")
     if i == 0 :
-        print(".", end=" ")
+        print(".", end="")
 
     #print((( a % b ) * 10) % b)
