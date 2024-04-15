@@ -1,4 +1,4 @@
 n = int(input())
 
-for n in range(n, 101) :
-    print(n, end=" ")
+for i in range(n, 101) :
+    print(i, end=" ")
