@@ -10,5 +10,5 @@ if c == 'A':
         p += 1
 else :
     for _ in range(n+1, 1, -1):
-        print(p, end=" ")
-        p -= 1
+        print(n, end=" ")
+        n -= 1
