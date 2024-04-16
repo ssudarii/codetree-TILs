@@ -9,6 +9,6 @@ if c == 'A':
         print(p, end=" ")
         p += 1
 else :
-    for _ in range(1, n+1, -1):
+    for _ in range(n+1, 1, -1):
         print(p, end=" ")
         p += 1
