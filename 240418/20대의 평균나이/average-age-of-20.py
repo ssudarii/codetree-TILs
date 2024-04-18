@@ -3,11 +3,10 @@ cnt = 0
 
 while True:
     n = int(input())
-    sum_val += n 
-    cnt += 1
-    if n < 20 or n > 30:
-        break
+    if 19 < n < 30:
+        sum_val += n
+        cnt += 1
     else :
-        continue
+        break
 
 print("%.2f" % (sum_val / cnt))
