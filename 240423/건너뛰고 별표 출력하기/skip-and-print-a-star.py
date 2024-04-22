@@ -6,7 +6,7 @@ for i in range(n):
     print()
     print()
 
-for i in range(1, 5):
+for i in range(1, n):
     for j in range(n-i):
         print("*", end="")
     print()
